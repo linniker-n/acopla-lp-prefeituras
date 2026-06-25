@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PDTIC Integrado à Gestão Pública Municipal | ACOPLA</title>
-<meta name="description" content="A ACOPLA apoia Prefeituras com governança, planejamento, gestão pública, tecnologia e telecomunicações por meio de uma metodologia contínua, técnica e apartidária.">
+<title>Governança contínua para a gestão pública municipal | ACOPLA</title>
+<meta name="description" content="A ACOPLA integra secretarias, tecnologia, contratos e informações em uma estratégia contínua de governança, economicidade e resultados para Prefeituras.">
+<meta property="og:title" content="Governança contínua para a gestão pública municipal | ACOPLA">
+<meta property="og:description" content="Tecnologia, contratos e informações organizados para fortalecer a gestão pública municipal.">
+<meta property="og:image" content="logo-acopla-transparent.png">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="logo-acopla-transparent.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -350,7 +355,7 @@ img,svg{display:block;max-width:100%}
 .faq-left p{font-size:.88rem;color:var(--muted);line-height:1.75;margin-top:14px}
 .faq-list{display:flex;flex-direction:column}
 .fq{border-bottom:1px solid var(--border)}
-.fq-q{display:flex;justify-content:space-between;align-items:center;padding:20px 0;cursor:pointer;gap:14px}
+.fq-q{display:flex;justify-content:space-between;align-items:center;width:100%;padding:20px 0;cursor:pointer;gap:14px;border:0;background:transparent;text-align:left;font-family:var(--font)}
 .fq-q-t{font-size:.9rem;font-weight:600;color:var(--text)}
 .fq-ic{width:24px;height:24px;border-radius:50%;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1rem;color:var(--muted);transition:all .2s;flex-shrink:0}
 .fq.open .fq-ic{background:var(--green);border-color:var(--green);color:var(--white);transform:rotate(45deg)}
@@ -574,6 +579,1671 @@ footer strong{color:rgba(255,255,255,.38)}
   .lp-form{padding:28px 20px}
   .lf-row{grid-template-columns:1fr}
 }
+
+/* REFINAMENTO DE HIERARQUIA, MARCA E LEITURA */
+html{scroll-padding-top:84px}
+body{letter-spacing:.002em}
+.h2,.cta-h2,.res-text h3{letter-spacing:-.004em;text-wrap:balance}
+.h2{line-height:1.16}
+.lead,.sol-desc,.prob-right,.cta-p,.t-right,.sec-benefit-top p,.mun-header p{max-width:62ch;text-wrap:pretty}
+.btn:focus-visible,.nav-links a:focus-visible,.fq-q:focus-visible,.lf-input:focus-visible{outline:3px solid rgba(188,219,5,.68);outline-offset:3px}
+
+.brand-logo{display:inline-flex;align-items:center;justify-content:center;background:#fff;border-radius:7px;padding:4px 7px;line-height:0;box-shadow:0 5px 18px rgba(0,0,0,.14)}
+.brand-logo img{width:112px;height:auto}
+#nav.scrolled .brand-logo{box-shadow:0 3px 12px rgba(0,96,42,.10)}
+
+#hero{min-height:auto}
+.hero-wrap{display:block;max-width:1240px;padding:158px 5% 72px}
+.hero-content{max-width:1200px}
+.hero-badge{animation:none;opacity:1;margin-bottom:22px;letter-spacing:.08em}
+.hero-h1{max-width:1200px;font-size:clamp(2.35rem,4.2vw,4.2rem);line-height:1.12;letter-spacing:-.004em;animation:none;opacity:1;text-wrap:balance;margin-bottom:24px}
+.hero-sub{max-width:720px;font-size:1.03rem;animation:none;opacity:1;text-wrap:pretty;margin-bottom:34px}
+.hero-acts{animation:none;opacity:1}
+.hero-bar-outer{animation:none;opacity:1}
+.hero-bar{max-width:1240px}
+.hb-lab{max-width:180px;line-height:1.5}
+.hero-glow::after{right:12%}
+
+/* CIDADES DIGITAIS */
+#cidades-digitais{background:var(--green-l);overflow:hidden}
+.city-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(330px,.95fr);gap:72px;align-items:center}
+.city-copy .h2{max-width:17ch;margin-bottom:18px}
+.city-copy > p{color:var(--muted);font-size:.97rem;line-height:1.8;max-width:59ch}
+.city-signature{margin-top:30px;display:flex;align-items:center;gap:16px;padding-top:18px;border-top:1px solid rgba(0,96,42,.18)}
+.city-signature img{width:118px;height:auto}
+.city-signature span{font-family:var(--mono);font-size:.67rem;line-height:1.55;color:var(--green);letter-spacing:.06em;text-transform:uppercase;max-width:28ch}
+.city-map{background:var(--dark);border-radius:22px;padding:34px;position:relative;isolation:isolate;overflow:hidden;box-shadow:0 18px 46px rgba(0,96,42,.16)}
+.city-map::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(188,219,5,.11) 1px,transparent 1px),linear-gradient(90deg,rgba(188,219,5,.11) 1px,transparent 1px);background-size:32px 32px;mask-image:linear-gradient(to bottom,transparent,black 15%,black 85%,transparent);z-index:-1}
+.city-map::after{content:'';position:absolute;width:260px;height:260px;top:-130px;right:-90px;border:1px solid rgba(188,219,5,.38);border-radius:50%;box-shadow:0 0 0 22px rgba(188,219,5,.05),0 0 0 44px rgba(188,219,5,.035);z-index:-1}
+.city-eyebrow{font-family:var(--mono);font-size:.66rem;text-transform:uppercase;letter-spacing:.13em;color:var(--lime);margin-bottom:34px}
+.city-rows{display:grid;gap:0}
+.city-row{display:grid;grid-template-columns:42px 1fr;gap:15px;padding:18px 0;border-top:1px solid rgba(255,255,255,.10)}
+.city-row:first-child{border-top:0;padding-top:0}
+.city-n{font-family:var(--mono);font-size:.7rem;color:var(--lime);padding-top:2px}
+.city-row h3{font-size:1rem;color:var(--white);line-height:1.25;margin-bottom:5px;letter-spacing:-.005em}
+.city-row p{font-size:.82rem;color:rgba(255,255,255,.55);line-height:1.6}
+
+/* SEGURANÇA PÚBLICA */
+#seguranca{background:var(--white)}
+.security-layout{display:grid;grid-template-columns:minmax(330px,.86fr) minmax(0,1.14fr);gap:82px;align-items:center}
+.security-visual{min-height:410px;background:var(--dark2);border-radius:22px;position:relative;overflow:hidden;padding:30px;display:flex;align-items:flex-end}
+.security-visual::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 34%,rgba(188,219,5,.22) 0 2px,transparent 3px),radial-gradient(circle at 70% 28%,rgba(188,219,5,.22) 0 2px,transparent 3px),radial-gradient(circle at 60% 72%,rgba(188,219,5,.22) 0 2px,transparent 3px),linear-gradient(122deg,transparent 42%,rgba(188,219,5,.20) 42.2% 42.6%,transparent 42.8%),linear-gradient(34deg,transparent 48%,rgba(0,96,42,.85) 48.2% 48.8%,transparent 49%);opacity:.9}
+.security-visual::after{content:'';position:absolute;width:190px;height:190px;top:58px;left:50%;transform:translateX(-50%);border:1px solid rgba(188,219,5,.48);border-radius:50%;box-shadow:0 0 0 30px rgba(188,219,5,.045),0 0 0 60px rgba(188,219,5,.025)}
+.security-label{position:relative;font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.13em;color:rgba(255,255,255,.78);line-height:1.7;max-width:21ch}
+.security-label strong{display:block;color:var(--lime);font-size:1.1rem;font-family:var(--font);letter-spacing:-.02em;text-transform:none}
+.security-copy .h2{max-width:18ch;margin-bottom:18px}
+.security-copy > p{font-size:.97rem;color:var(--muted);line-height:1.8;max-width:58ch}
+.security-list{display:grid;grid-template-columns:1fr 1fr;gap:16px 28px;margin-top:30px}
+.security-item{border-top:1px solid var(--border);padding-top:14px}
+.security-item h3{font-size:.9rem;line-height:1.25;margin-bottom:6px}
+.security-item p{font-size:.78rem;color:var(--muted);line-height:1.6}
+
+/* ECONOMICIDADE */
+#economicidade{background:var(--off2)}
+.eco-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:start}
+.eco-intro .h2{max-width:15ch;margin-bottom:18px}
+.eco-intro > p{font-size:.95rem;color:var(--muted);line-height:1.8;max-width:48ch}
+.eco-kicker{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;color:var(--green);margin-top:25px}
+.eco-list{border-top:1px solid var(--border)}
+.eco-item{display:grid;grid-template-columns:54px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid var(--border)}
+.eco-item-n{font-family:var(--mono);font-size:.72rem;color:var(--lime-d);padding-top:3px}
+.eco-item h3{font-size:1.02rem;line-height:1.25;margin-bottom:6px;letter-spacing:-.008em}
+.eco-item p{font-size:.84rem;color:var(--muted);line-height:1.65;max-width:57ch}
+
+.brand-stamp{display:flex;align-items:center;gap:16px;margin-top:26px;padding-top:20px;border-top:1px solid var(--border)}
+.brand-stamp img{width:130px;height:auto}
+.brand-stamp span{font-family:var(--mono);font-size:.65rem;color:var(--green);text-transform:uppercase;letter-spacing:.09em;line-height:1.55;max-width:30ch}
+.how-cta,.faq-actions{margin-top:30px}
+.cta-logo{display:inline-block;background:#fff;border-radius:8px;padding:7px 10px;width:152px;height:auto;margin:0 auto 25px;box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.footer-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:22px;text-align:left}
+.footer-brand{background:#fff;border-radius:6px;padding:5px 8px;line-height:0;flex-shrink:0}
+.footer-brand img{width:102px;height:auto}
+footer p{max-width:68ch}
+
+@media(max-width:1024px){
+  .hero-wrap{padding-top:130px}
+  .city-layout,.security-layout,.eco-layout{grid-template-columns:1fr;gap:42px}
+  .city-copy .h2,.security-copy .h2,.eco-intro .h2{max-width:21ch}
+  .security-visual{min-height:330px}
+}
+@media(max-width:768px){
+  .hero-wrap{padding:118px 6% 54px}
+  #hero,.hero-wrap,.hero-content{width:100%;max-width:100%;min-width:0}
+  .hero-h1{width:100%;max-width:100%;font-size:clamp(1.95rem,7.3vw,3.35rem);line-height:1.13;letter-spacing:0;overflow-wrap:anywhere;text-wrap:pretty}
+  .hero-sub{font-size:.94rem}
+  .hero-bar{grid-template-columns:repeat(3,1fr)}
+  .hb-item{padding:23px 10px;border-bottom:none!important;border-right:1px solid rgba(255,255,255,.07)!important}
+  .hb-item:last-child{border-right:none!important}
+  .hb-lab{font-size:.66rem;max-width:108px}
+  .security-list{grid-template-columns:1fr}
+  .footer-inner{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:480px){
+  .hero-bar{grid-template-columns:1fr}
+  .hb-item,.hb-item:last-child{border-right:none!important;border-bottom:1px solid rgba(255,255,255,.07)!important}
+  .hb-item:last-child{border-bottom:none!important}
+  .city-map{padding:26px 22px}
+  .security-visual{min-height:280px}
+}
+
+/* REDESIGN V2 — HERO OFF-WHITE E DIAGRAMAÇÃO GERAL */
+:root{--cream:#f4f2e9;--cream-2:#ebe9df;--ink:#102214;--panel:#0b1f12;--panel-2:#12341f;--line-soft:rgba(16,34,20,.12)}
+body{background:var(--cream);color:var(--ink)}
+#nav{background:rgba(244,242,233,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(16,34,20,.08);box-shadow:none}
+#nav.scrolled{background:rgba(244,242,233,.96);box-shadow:0 1px 0 rgba(16,34,20,.10)}
+.brand-logo,.footer-brand{background:transparent!important;border-radius:0;padding:0;box-shadow:none}
+.brand-logo img{width:124px;height:auto}
+.nav-links a{color:rgba(16,34,20,.62)}
+#nav.scrolled .nav-links a{color:rgba(16,34,20,.62)}
+.nav-links a:hover{color:var(--green)}
+.nav-mobile-cta{background:var(--green);color:#fff}
+
+#hero{background:var(--cream);color:var(--ink);min-height:auto}
+.hero-dots{background-image:radial-gradient(rgba(0,96,42,.075) .8px,transparent .9px);background-size:26px 26px;opacity:.35;mask-image:linear-gradient(to bottom,rgba(0,0,0,.75),transparent 92%)}
+.hero-glow{display:none}
+.hero-wrap{max-width:1260px;padding:140px 5% 78px;display:grid;grid-template-columns:minmax(0,.88fr) minmax(420px,1.12fr);gap:74px;align-items:center}
+.hero-content{max-width:590px}
+.hero-badge{background:transparent;border:0;color:var(--green);padding:0;border-radius:0;font-size:.72rem;letter-spacing:.13em;margin-bottom:22px}
+.hero-h1{max-width:600px;color:var(--ink);font-size:clamp(2.55rem,4.8vw,4.85rem);line-height:1.03;letter-spacing:-.012em;margin-bottom:24px;text-wrap:balance}
+.hero-h1 .acc{color:var(--ink)}
+.hero-sub{max-width:54ch;color:rgba(16,34,20,.66);font-size:1rem;line-height:1.75;margin-bottom:32px}
+.hero-acts{gap:14px}.hero-acts .btn-lime{background:var(--green);color:#fff;box-shadow:0 14px 30px rgba(0,96,42,.18)}
+.hero-acts .btn-lime:hover{background:var(--green-d);box-shadow:0 16px 34px rgba(0,96,42,.22)}
+.hero-acts .btn-ow{border-color:rgba(16,34,20,.16);color:rgba(16,34,20,.72)}
+.hero-acts .btn-ow:hover{border-color:rgba(0,96,42,.38);color:var(--green)}
+.hero-panel{position:relative;overflow:hidden;min-height:520px;background:var(--panel);border-radius:18px;padding:46px 48px;box-shadow:0 24px 70px rgba(0,96,42,.15);isolation:isolate}
+.hero-panel::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(188,219,5,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(188,219,5,.10) 1px,transparent 1px);background-size:38px 38px;opacity:.42;z-index:-2}
+.hero-panel::after{content:'';position:absolute;inset:48px;background:linear-gradient(90deg,transparent 0 16%,rgba(188,219,5,.55) 16.2% 16.6%,transparent 16.8% 45%,rgba(255,255,255,.38) 45.1% 45.4%,transparent 45.5%),linear-gradient(140deg,transparent 0 44%,rgba(188,219,5,.42) 44.1% 44.5%,transparent 44.7%),linear-gradient(30deg,transparent 0 54%,rgba(255,255,255,.28) 54.1% 54.4%,transparent 54.6%);opacity:.55;z-index:-1}
+.hero-panel-title{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.13em;color:var(--lime);margin-bottom:118px}
+.hero-panel-core{width:150px;height:150px;border:1px solid rgba(188,219,5,.6);display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;font-size:.88rem;font-weight:700;line-height:1.25;margin-bottom:42px;background:rgba(255,255,255,.03)}
+.hero-panel-list{display:grid;gap:0;margin-left:auto;max-width:360px}
+.hero-panel-item{display:grid;grid-template-columns:42px 1fr;gap:16px;padding:18px 0;border-top:1px solid rgba(255,255,255,.14)}
+.hero-panel-item:first-child{border-top:0}.hero-panel-item span{font-family:var(--mono);font-size:.7rem;color:var(--lime)}
+.hero-panel-item strong{display:block;color:#fff;font-size:.95rem;line-height:1.2;margin-bottom:4px}.hero-panel-item p{color:rgba(255,255,255,.56);font-size:.78rem;line-height:1.55}
+.hero-bar-outer{background:var(--panel);border-top:1px solid rgba(255,255,255,.08);backdrop-filter:none}
+.hb-item{padding:28px 20px}.hb-val{font-size:clamp(2rem,3.2vw,3rem);letter-spacing:-.02em}.hb-lab{color:rgba(255,255,255,.48);font-size:.72rem}
+
+.h2{font-size:clamp(1.75rem,2.85vw,2.85rem);letter-spacing:-.006em}.sec{padding:96px 0}.sec-lg{padding:116px 0}.lead{max-width:58ch}
+
+#cidades-digitais{background:var(--cream)}
+.city-layout{grid-template-columns:minmax(0,.82fr) minmax(520px,1.18fr);gap:76px}.city-copy .h2{max-width:14ch}.city-copy > p{max-width:50ch}
+.city-map{background:var(--panel);border-radius:18px;padding:42px 50px;box-shadow:none;border:1px solid rgba(0,96,42,.16);min-height:560px}
+.city-map::before{background-image:linear-gradient(rgba(188,219,5,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(188,219,5,.08) 1px,transparent 1px);background-size:36px 36px;opacity:.7;mask-image:none}.city-map::after{display:none}
+.city-eyebrow{font-size:.68rem;letter-spacing:.13em;margin-bottom:26px}.city-row{grid-template-columns:54px 1fr;gap:22px;padding:23px 0;border-top:1px solid rgba(255,255,255,.13)}
+.city-row h3{font-size:1rem;letter-spacing:0}.city-row p{max-width:54ch;color:rgba(255,255,255,.58);font-size:.82rem;line-height:1.65}
+
+#seguranca{background:var(--cream)}
+.security-layout{grid-template-columns:minmax(420px,.95fr) minmax(0,1.05fr);gap:78px}.security-visual{min-height:500px;background:var(--panel);border-radius:18px;box-shadow:none;border:1px solid rgba(0,96,42,.16)}
+.security-visual::before{background:linear-gradient(90deg,transparent 0 20%,rgba(255,255,255,.16) 20.2% 20.45%,transparent 20.7% 66%,rgba(188,219,5,.20) 66.15% 66.38%,transparent 66.6%),linear-gradient(0deg,transparent 0 34%,rgba(255,255,255,.14) 34.2% 34.45%,transparent 34.7% 72%,rgba(188,219,5,.18) 72.15% 72.38%,transparent 72.6%),radial-gradient(circle at 36% 34%,rgba(188,219,5,.42) 0 5px,transparent 6px),radial-gradient(circle at 70% 64%,rgba(188,219,5,.34) 0 4px,transparent 5px);opacity:.85}
+.security-visual::after{content:'';position:absolute;inset:58px;border:1px solid rgba(188,219,5,.28);border-radius:0;box-shadow:none;transform:none;width:auto;height:auto;top:58px;left:58px}
+.security-label{font-size:.68rem;color:rgba(255,255,255,.70);max-width:24ch}.security-label strong{font-size:1.45rem;color:var(--lime);line-height:1.12;margin-bottom:12px}
+.security-copy .h2{max-width:16ch}.security-list{gap:18px 30px}.security-item p{font-size:.8rem;max-width:34ch}
+
+.mun-feat{position:relative;display:grid;grid-template-columns:minmax(150px,.36fr) minmax(0,1fr);align-items:center;gap:64px;padding:32px 42px;background:var(--panel);border-radius:18px;flex-wrap:nowrap}.mun-feat::before{content:'';position:absolute;left:31%;top:32px;bottom:32px;width:1px;background:rgba(188,219,5,.42)}
+.mf-left{grid-column:1}.mf-text{grid-column:2;max-width:66ch;font-size:.95rem;line-height:1.75}.mf-num{font-size:3.25rem}.mf-lbl{font-size:.72rem;color:rgba(255,255,255,.44)}
+
+#contato{background:var(--cream);color:var(--ink);padding:126px 0;text-align:left}#contato::before{display:none}.cta-inner{display:grid;grid-template-columns:minmax(0,.95fr) minmax(420px,1.05fr);gap:76px;align-items:start}.cta-logo{background:transparent!important;box-shadow:none;border-radius:0;padding:0;width:142px;margin:0 0 44px}.cta-pre{color:var(--green);margin-bottom:18px}.cta-h2{max-width:15ch;margin:0 0 20px;color:var(--ink);font-size:clamp(2.1rem,3.7vw,4rem);line-height:1.07;letter-spacing:-.01em}.cta-h2 .out{color:var(--ink)}.cta-p{max-width:48ch;margin:0;color:rgba(16,34,20,.68);font-size:1rem}.cta-form-wrap{background:var(--panel);border-radius:20px;padding:10px;box-shadow:0 24px 70px rgba(0,96,42,.13)}.lp-form{margin:0;max-width:none;background:transparent;border:1px solid rgba(255,255,255,.11);border-radius:16px;padding:34px}.lf-success{background:var(--panel);margin:18px 0 0}
+footer{background:var(--panel)}.footer-brand img{width:112px;filter:brightness(0) invert(1);opacity:.9}.city-signature img,.brand-stamp img,.cta-logo{filter:none}.city-signature img,.brand-stamp img{background:transparent;border-radius:0;padding:0;box-shadow:none}
+
+@media(max-width:1024px){.hero-wrap,.city-layout,.security-layout,.cta-inner{grid-template-columns:1fr;gap:44px}.hero-content,.hero-h1{max-width:780px}.hero-panel{min-height:430px}.city-map{min-height:auto}.cta-h2{max-width:18ch}.cta-form-wrap{max-width:720px}}
+@media(max-width:768px){#nav{padding:0 18px}.brand-logo img{width:104px}.hero-wrap{width:100%;max-width:100%;min-width:0;padding:118px 6% 54px}.hero-content,.hero-h1,.hero-sub,.hero-panel{width:100%;max-width:100%;min-width:0}.hero-h1{font-size:clamp(2.05rem,9vw,3rem);line-height:1.06;overflow-wrap:anywhere}.hero-acts{flex-wrap:wrap}.hero-acts .btn,.hero-acts .btn-ow{max-width:100%;white-space:normal;text-align:center}.hero-panel{padding:30px 24px;min-height:420px}.hero-panel-title{margin-bottom:76px}.hero-panel-core{width:124px;height:124px}.hero-panel-list{max-width:100%}.city-layout,.security-layout,.cta-inner{gap:32px}.city-map{padding:30px 24px}.city-row{grid-template-columns:42px 1fr}.security-visual{min-height:360px}.mun-feat{grid-template-columns:1fr;gap:18px;padding:28px 24px}.mun-feat::before{display:none}.mf-left,.mf-text{grid-column:auto}.cta-h2{font-size:clamp(2rem,8vw,3rem)}.lp-form{padding:26px 20px}}
+@media(max-width:520px){.hero-acts{flex-direction:column;align-items:stretch}.hero-acts .btn,.hero-acts .btn-ow{width:100%;justify-content:center}.hero-panel-item{grid-template-columns:34px 1fr}.hero-panel-core{font-size:.78rem}.city-row{grid-template-columns:34px 1fr;gap:16px}.cta-form-wrap{padding:6px}.cta-h2{font-size:clamp(1.9rem,8.8vw,2.7rem)}}
+
+/* REDESIGN V3 - ajustes de diagramacao mantendo copy */
+:root{
+  --cream:#f5f2e9;
+  --cream-2:#ebe8dc;
+  --ink:#102214;
+  --panel:#0b1f12;
+  --panel-2:#12341f;
+  --line-soft:rgba(16,34,20,.12);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink)}
+#nav{width:100vw;max-width:100vw;right:auto;overflow:hidden}
+#sp{max-width:100vw}
+.ticker{max-width:100vw;overflow:hidden;contain:paint}
+.ti{will-change:transform}
+.btn,.btn-ow,.btn-ob,.lf-btn,.brand-logo,.nav-links a,.hb-item,.hero-panel,.city-row,.security-item,.mun-feat,.mun-card,.benefit-card,.tc,.pi,.sc-card,.eco-item,.fq-q{
+  transition:transform .28s cubic-bezier(.16,1,.3,1),box-shadow .28s cubic-bezier(.16,1,.3,1),background .28s cubic-bezier(.16,1,.3,1),border-color .28s cubic-bezier(.16,1,.3,1),color .28s cubic-bezier(.16,1,.3,1),opacity .28s cubic-bezier(.16,1,.3,1);
+}
+.btn:hover,.btn-ow:hover,.btn-ob:hover,.lf-btn:hover{transform:translateY(-3px) scale(1.01)}
+.btn:active,.btn-ow:active,.btn-ob:active,.lf-btn:active{transform:translateY(0) scale(.98)}
+.brand-logo:hover{transform:translateY(-1px) scale(1.03);opacity:.94}
+.nav-links a:not(.nav-cta){position:relative}
+.nav-links a:not(.nav-cta)::after{content:'';position:absolute;left:0;right:0;bottom:-8px;height:1px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:transform .28s cubic-bezier(.16,1,.3,1)}
+.nav-links a:not(.nav-cta):hover::after{transform:scaleX(1)}
+
+#hero{background:var(--cream);color:var(--ink);min-height:auto;position:relative;border-bottom:1px solid rgba(16,34,20,.08)}
+.hero-dots{background-image:radial-gradient(rgba(0,96,42,.09) .8px,transparent .9px);background-size:28px 28px;opacity:.24;mask-image:linear-gradient(to bottom,rgba(0,0,0,.72),transparent 88%)}
+.hero-wrap{max-width:1240px;padding:132px 5% 74px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.75fr);gap:54px;align-items:center}
+.hero-content{max-width:760px}
+.hero-badge{background:transparent;border:0;color:var(--green);padding:0;border-radius:0;font-size:.68rem;letter-spacing:.13em;margin-bottom:20px}
+.hero-h1{max-width:780px;color:var(--ink);font-size:clamp(1.9rem,2.86vw,3.25rem);line-height:1.12;letter-spacing:0;margin-bottom:22px;text-wrap:balance}
+.hero-h1 .acc{color:var(--green)}
+.hero-sub{max-width:62ch;color:rgba(16,34,20,.68);font-size:1rem;line-height:1.74;margin-bottom:30px;text-wrap:pretty}
+.hero-acts{gap:14px}
+.hero-acts .btn-lime{background:var(--green);color:#fff;box-shadow:0 14px 30px rgba(0,96,42,.16)}
+.hero-acts .btn-lime:hover{background:var(--green-d);box-shadow:0 18px 38px rgba(0,96,42,.22)}
+.hero-acts .btn-ow{border-color:rgba(16,34,20,.17);color:rgba(16,34,20,.72);background:rgba(255,255,255,.28)}
+.hero-acts .btn-ow:hover{border-color:rgba(0,96,42,.38);color:var(--green);background:rgba(255,255,255,.5)}
+.hero-panel{position:relative;display:grid;place-items:center;min-height:430px;background:var(--panel);border:1px solid rgba(0,96,42,.14);border-radius:20px;padding:42px;overflow:hidden;box-shadow:0 22px 58px rgba(0,96,42,.14);isolation:isolate}
+.hero-panel::before{content:'';position:absolute;width:78%;aspect-ratio:1.45;left:11%;top:16%;border:1px solid rgba(188,219,5,.32);border-radius:50%;transform:rotate(-18deg);background:none;opacity:.9;z-index:0;animation:orbitFloat 8s ease-in-out infinite}
+.hero-panel::after{content:'';position:absolute;width:128%;height:1px;left:-14%;top:55%;background:rgba(188,219,5,.34);transform:rotate(-28deg);opacity:.65;z-index:0}
+.hero-panel-logo{position:relative;z-index:1;width:min(270px,76%);height:auto;filter:drop-shadow(0 18px 24px rgba(0,0,0,.18));transition:transform .32s cubic-bezier(.16,1,.3,1)}
+.hero-panel:hover{transform:translateY(-6px);box-shadow:0 28px 70px rgba(0,96,42,.18)}
+.hero-panel:hover .hero-panel-logo{transform:scale(1.04)}
+@keyframes orbitFloat{0%,100%{transform:rotate(-18deg) translateY(0)}50%{transform:rotate(-14deg) translateY(-10px)}}
+.hero-bar-outer{background:var(--panel);border-top:1px solid rgba(255,255,255,.08);backdrop-filter:none}
+.hero-bar{max-width:1240px}
+.hb-item{padding:28px 22px}
+.hb-item:hover{background:rgba(255,255,255,.035);transform:translateY(-2px)}
+.hb-val{font-size:clamp(2rem,3.1vw,2.9rem);letter-spacing:0}
+.hb-lab{max-width:190px;color:rgba(255,255,255,.52);font-size:.72rem;line-height:1.45}
+
+.h2,.cta-h2,.res-text h3{letter-spacing:0}
+.sec{padding:96px 0}.sec-lg{padding:112px 0}
+#cidades-digitais,#seguranca,#contato{background:var(--cream)}
+.city-layout{grid-template-columns:minmax(0,.86fr) minmax(480px,1.14fr);gap:68px;align-items:center}
+.city-copy .h2{max-width:15ch}
+.city-copy > p{max-width:52ch}
+.city-signature img,.brand-stamp img,.cta-logo{filter:none;background:transparent;border-radius:0;padding:0;box-shadow:none}
+.city-map{position:relative;min-height:auto;background:var(--panel);border:1px solid rgba(0,96,42,.16);border-radius:20px;padding:42px 46px;box-shadow:0 18px 46px rgba(0,96,42,.12);overflow:hidden;isolation:isolate}
+.city-map::before{content:'';position:absolute;inset:18px;border:1px solid rgba(188,219,5,.16);border-radius:14px;background:none!important;opacity:1;z-index:0;pointer-events:none}
+.city-map::after{display:none!important}
+.city-eyebrow,.city-rows{position:relative;z-index:1}
+.city-eyebrow{font-size:.66rem;letter-spacing:.13em;color:var(--lime);margin-bottom:24px}
+.city-row{grid-template-columns:48px 1fr;gap:20px;padding:20px 0;border-top:1px solid rgba(255,255,255,.12)}
+.city-row:hover{transform:translateX(6px);border-top-color:rgba(188,219,5,.28)}
+.city-n{font-size:.7rem;color:var(--lime)}
+.city-row h3{font-size:1rem;line-height:1.25;letter-spacing:0;margin-bottom:5px}
+.city-row p{max-width:54ch;color:rgba(255,255,255,.6);font-size:.82rem;line-height:1.65}
+
+.security-layout{grid-template-columns:minmax(390px,.9fr) minmax(0,1.1fr);gap:72px;align-items:center}
+.security-visual{position:relative;min-height:430px;background:var(--panel);border:1px solid rgba(0,96,42,.16);border-radius:20px;padding:42px;display:flex;align-items:flex-end;overflow:hidden;box-shadow:0 18px 46px rgba(0,96,42,.11);isolation:isolate}
+.security-visual::before{content:'';position:absolute;inset:42px;border:1px solid rgba(188,219,5,.22);border-radius:18px;background:none!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.035);z-index:0}
+.security-visual::after{content:'';position:absolute;width:118%;height:1px;left:-9%;top:48%;background:rgba(188,219,5,.34);border:0;border-radius:0;box-shadow:none;transform:rotate(-31deg);opacity:.7;z-index:0}
+.security-label{position:relative;z-index:1;font-size:.67rem;color:rgba(255,255,255,.72);max-width:24ch}
+.security-label strong{font-size:1.38rem;color:var(--lime);line-height:1.14;margin-bottom:12px}
+.security-item{border-top:1px solid rgba(16,34,20,.14)}
+.security-item:hover{transform:translateY(-3px);border-top-color:rgba(0,96,42,.38)}
+
+.mun-feat{position:relative;display:grid;grid-template-columns:minmax(150px,.3fr) minmax(0,1fr);align-items:center;gap:42px;padding:34px 42px;background:var(--panel);border:1px solid rgba(0,96,42,.16);border-radius:20px;box-shadow:0 18px 46px rgba(0,96,42,.11);overflow:hidden}
+.mun-feat::before{display:none!important}
+.mun-feat::after{content:'';position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--lime),transparent 62%);transform:scaleX(.42);transform-origin:left;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.mun-feat:hover{transform:translateY(-4px);box-shadow:0 24px 58px rgba(0,96,42,.16)}
+.mun-feat:hover::after{transform:scaleX(1)}
+.mf-left{grid-column:1;padding-right:34px;border-right:1px solid rgba(188,219,5,.24)}
+.mf-text{grid-column:2;max-width:72ch;font-size:.96rem;line-height:1.72;color:rgba(255,255,255,.68);text-wrap:pretty}
+.mf-text strong{color:rgba(255,255,255,.92)}
+.mf-num{font-size:clamp(2.8rem,5vw,4.1rem);line-height:1;letter-spacing:0;color:var(--lime)}
+.mf-lbl{font-size:.72rem;color:rgba(255,255,255,.46);line-height:1.4;margin-top:8px}
+
+#contato{padding:110px 0 118px;text-align:left}
+.cta-inner{display:grid;grid-template-columns:minmax(0,.9fr) minmax(420px,1fr);gap:64px;align-items:center}
+.cta-copy{max-width:720px}
+.cta-logo{width:136px;margin:0 0 34px}
+.cta-pre{color:var(--green);margin-bottom:16px}
+.cta-h2{max-width:720px;margin:0 0 20px;color:var(--ink);font-size:clamp(1.85rem,2.72vw,3.15rem);line-height:1.15;letter-spacing:0;text-wrap:balance}
+.cta-h2 .out{display:block;color:rgba(16,34,20,.66);margin-top:8px}
+.cta-p{max-width:54ch;margin:0;color:rgba(16,34,20,.68);font-size:.98rem;line-height:1.75}
+.cta-form-wrap{max-width:640px;width:100%;justify-self:end;background:var(--panel);border-radius:20px;padding:10px;box-shadow:0 22px 58px rgba(0,96,42,.14)}
+.lf-input:hover{border-color:rgba(188,219,5,.34);background:rgba(255,255,255,.09)}
+.lf-btn:hover{box-shadow:0 14px 34px rgba(188,219,5,.28)}
+
+.sc-card:hover,.benefit-card:hover,.tc:hover,.pi:hover,.mun-card:hover,.eco-item:hover{transform:translateY(-4px)}
+.pi:hover,.eco-item:hover{transform:translateX(6px)}
+.fq-q:hover{color:var(--green);transform:translateX(4px)}
+
+@media(max-width:1024px){
+  .hero-wrap,.city-layout,.security-layout,.cta-inner{grid-template-columns:1fr;gap:42px}
+  .hero-content,.hero-h1,.hero-sub,.cta-copy{max-width:780px}
+  .hero-panel{min-height:330px}
+  .city-map,.security-visual{min-height:auto}
+  .cta-form-wrap{justify-self:start;max-width:720px}
+}
+@media(max-width:768px){
+  #nav{padding:0 18px}
+  .brand-logo img{width:104px}
+  .hero-wrap{width:100%;max-width:100%;min-width:0;padding:116px 6% 54px}
+  .hero-content,.hero-h1,.hero-sub,.hero-panel{width:100%;max-width:100%;min-width:0}
+  .nav-mobile-cta{flex:0 0 auto;max-width:calc(100vw - 172px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .hero-h1{font-size:clamp(1.58rem,6.8vw,2.18rem);line-height:1.16;overflow-wrap:normal;word-break:normal}
+  .hero-sub{font-size:.94rem}
+  .hero-panel{min-height:280px;padding:32px 24px}
+  .hero-panel-logo{width:min(220px,72%)}
+  .hero-bar{grid-template-columns:1fr}
+  .hb-item,.hb-item:last-child{border-right:none!important;border-bottom:1px solid rgba(255,255,255,.07)!important}
+  .hb-item:last-child{border-bottom:none!important}
+  .city-map{padding:30px 24px}
+  .city-map::before{inset:12px}
+  .city-row{grid-template-columns:38px 1fr;gap:16px}
+  .security-visual{min-height:320px;padding:30px 24px}
+  .security-visual::before{inset:26px}
+  .mun-feat{grid-template-columns:1fr;gap:22px;padding:30px 24px}
+  .mf-left{grid-column:auto;padding-right:0;padding-bottom:18px;border-right:0;border-bottom:1px solid rgba(188,219,5,.24)}
+  .mf-text{grid-column:auto;font-size:.9rem}
+  .cta-inner{gap:34px}
+  .cta-h2{font-size:clamp(1.7rem,7vw,2.55rem)}
+  .cta-form-wrap{max-width:100%;padding:7px}
+}
+@media(max-width:520px){
+  .hero-acts{flex-direction:column;align-items:stretch}
+  .hero-acts .btn,.hero-acts .btn-ow{width:100%;justify-content:center;white-space:normal;text-align:center}
+  .city-row:hover,.fq-q:hover,.pi:hover,.eco-item:hover{transform:none}
+  .security-visual{min-height:280px}
+  .cta-logo{width:118px;margin-bottom:28px}
+}
+
+/* HERO V4 - composicao editorial sem painel lateral */
+#hero{min-height:auto}
+#hero .hero-wrap{
+  display:block;
+  max-width:1320px;
+  padding:136px 5% 86px;
+}
+#hero .hero-content{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(260px,.32fr);
+  column-gap:72px;
+  row-gap:26px;
+  max-width:1160px;
+  margin:0 auto;
+}
+#hero .hero-badge,
+#hero .hero-h1{grid-column:1/-1}
+#hero .hero-badge{
+  margin:0;
+  font-size:.7rem;
+  letter-spacing:.14em;
+}
+#hero .hero-h1{
+  max-width:1120px;
+  margin:0;
+  font-size:clamp(2.45rem,4.15vw,5.05rem);
+  line-height:1.045;
+  letter-spacing:0;
+  text-wrap:balance;
+}
+#hero .hero-h1 .acc{color:var(--green)}
+#hero .hero-sub{
+  grid-column:1;
+  max-width:68ch;
+  margin:0;
+  padding-top:10px;
+  color:rgba(16,34,20,.68);
+  font-size:1.02rem;
+  line-height:1.72;
+}
+#hero .hero-acts{
+  grid-column:2;
+  align-self:end;
+  justify-self:end;
+  flex-direction:column;
+  width:100%;
+  max-width:280px;
+  gap:12px;
+  margin:0;
+}
+#hero .hero-acts .btn,
+#hero .hero-acts .btn-ow{
+  width:100%;
+  justify-content:center;
+}
+#hero .hero-panel{display:none}
+@media(max-width:1024px){
+  #hero .hero-wrap{padding:120px 6% 70px}
+  #hero .hero-content{
+    grid-template-columns:1fr;
+    max-width:860px;
+    row-gap:22px;
+  }
+  #hero .hero-sub,
+  #hero .hero-acts{grid-column:1}
+  #hero .hero-acts{
+    justify-self:start;
+    flex-direction:row;
+    max-width:none;
+    width:auto;
+  }
+  #hero .hero-acts .btn,
+  #hero .hero-acts .btn-ow{width:auto}
+}
+@media(max-width:768px){
+  #hero .hero-wrap{padding:112px 6% 54px}
+  #hero .hero-content{width:100%;max-width:100%;row-gap:20px}
+  #hero .hero-h1{
+    font-size:clamp(1.82rem,8vw,2.7rem);
+    line-height:1.13;
+    text-wrap:pretty;
+  }
+  #hero .hero-sub{font-size:.94rem;padding-top:0}
+}
+@media(max-width:520px){
+  #hero .hero-badge{font-size:.62rem;line-height:1.35}
+  #hero .hero-h1{font-size:clamp(1.78rem,8.2vw,2.32rem)}
+  #hero .hero-acts{
+    flex-direction:column;
+    width:100%;
+  }
+  #hero .hero-acts .btn,
+  #hero .hero-acts .btn-ow{width:100%}
+}
+
+/* HERO V5 - texto menor e alinhamento central */
+#hero .hero-wrap{
+  max-width:1180px;
+  padding:126px 5% 78px;
+}
+#hero .hero-content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  max-width:980px;
+  margin:0 auto;
+  text-align:center;
+  row-gap:0;
+}
+#hero .hero-badge{
+  justify-content:center;
+  margin-bottom:20px;
+}
+#hero .hero-h1{
+  max-width:960px;
+  font-size:clamp(2.15rem,3.25vw,4rem);
+  line-height:1.11;
+  margin:0 auto;
+}
+#hero .hero-sub{
+  max-width:62ch;
+  margin:24px auto 0;
+  padding-top:0;
+}
+#hero .hero-acts{
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+  width:auto;
+  max-width:none;
+  margin:32px auto 0;
+}
+#hero .hero-acts .btn,
+#hero .hero-acts .btn-ow{
+  width:auto;
+  min-width:210px;
+}
+@media(max-width:768px){
+  #hero .hero-wrap{padding:108px 6% 52px}
+  #hero .hero-h1{
+    max-width:640px;
+    font-size:clamp(1.65rem,7.1vw,2.26rem);
+    line-height:1.16;
+  }
+  #hero .hero-sub{margin-top:20px}
+  #hero .hero-acts{margin-top:28px}
+}
+@media(max-width:520px){
+  #hero .hero-content{text-align:center}
+  #hero .hero-badge{font-size:.6rem}
+  #hero .hero-h1{font-size:clamp(1.58rem,7.4vw,2.05rem)}
+  #hero .hero-acts{
+    flex-direction:column;
+    width:100%;
+  }
+  #hero .hero-acts .btn,
+  #hero .hero-acts .btn-ow{
+    width:100%;
+    min-width:0;
+  }
+}
+
+/* HERO V6 - referencia editorial com card lateral claro */
+#hero{
+  overflow:hidden;
+}
+#hero .hero-wrap{
+  max-width:1365px;
+  padding:118px 4% 74px;
+}
+#hero .hero-content{
+  display:grid;
+  grid-template-columns:minmax(0,1.14fr) minmax(360px,.68fr);
+  grid-template-areas:
+    "badge note"
+    "title note"
+    "support note"
+    "actions note";
+  align-items:center;
+  column-gap:68px;
+  row-gap:22px;
+  max-width:1250px;
+  margin:0 auto;
+  text-align:left;
+}
+#hero .hero-badge{
+  grid-area:badge;
+  justify-self:start;
+  justify-content:flex-start;
+  width:max-content;
+  max-width:100%;
+  margin:0;
+  padding:12px 18px 11px;
+  background:#e4f4df;
+  border:1px solid rgba(0,116,55,.08);
+  border-radius:999px;
+  box-shadow:0 16px 42px rgba(6,64,35,.06);
+}
+#hero .hero-h1{
+  grid-area:title;
+  max-width:680px;
+  margin:0;
+  font-size:clamp(2.45rem,4.35vw,4.15rem);
+  line-height:1.04;
+  text-align:left;
+  text-wrap:balance;
+}
+#hero .hero-support{
+  grid-area:support;
+  max-width:720px;
+  margin:0;
+  color:rgba(16,34,20,.68);
+  font-size:1.08rem;
+  line-height:1.58;
+  text-align:left;
+  text-wrap:pretty;
+}
+#hero .hero-sub{
+  grid-area:note;
+  position:relative;
+  justify-self:end;
+  max-width:430px;
+  margin:0;
+  padding:34px 38px 72px;
+  border:1px solid rgba(6,31,16,.12);
+  border-radius:24px;
+  background:#eff9b4;
+  color:rgba(18,37,26,.68);
+  font-size:.98rem;
+  line-height:1.58;
+  text-align:left;
+  text-wrap:pretty;
+  box-shadow:
+    16px 18px 0 rgba(207,226,99,.56),
+    0 26px 56px rgba(15,45,25,.12);
+  transform:rotate(-1.4deg);
+}
+#hero .hero-sub::before,
+#hero .hero-sub::after{
+  content:"";
+  position:absolute;
+  left:36px;
+  right:36px;
+  bottom:48px;
+  height:4px;
+  border-radius:99px;
+}
+#hero .hero-sub::before{
+  background:rgba(255,255,255,.82);
+}
+#hero .hero-sub::after{
+  right:92px;
+  background:#007437;
+  transform-origin:left center;
+  transition:transform .45s cubic-bezier(.2,.8,.2,1);
+}
+#hero .hero-sub:hover{
+  transform:rotate(-.55deg) translateY(-4px);
+  box-shadow:
+    14px 16px 0 rgba(207,226,99,.66),
+    0 34px 70px rgba(15,45,25,.16);
+}
+#hero .hero-sub:hover::after{
+  transform:scaleX(1.08);
+}
+#hero .hero-acts{
+  grid-area:actions;
+  justify-self:start;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction:row;
+  width:auto;
+  max-width:none;
+  margin:0;
+  gap:16px;
+}
+#hero .hero-acts .btn,
+#hero .hero-acts .btn-ow{
+  width:auto;
+  min-width:190px;
+}
+@media(max-width:1080px){
+  #hero .hero-wrap{padding:118px 6% 68px}
+  #hero .hero-content{
+    grid-template-columns:1fr;
+    grid-template-areas:
+      "badge"
+      "title"
+      "support"
+      "note"
+      "actions";
+    max-width:820px;
+    row-gap:24px;
+  }
+  #hero .hero-sub{
+    justify-self:start;
+    max-width:560px;
+    transform:rotate(-.8deg);
+  }
+}
+@media(max-width:768px){
+  #hero .hero-wrap{padding:106px 6% 52px}
+  #hero .hero-content{
+    max-width:100%;
+    row-gap:22px;
+  }
+  #hero .hero-badge{
+    font-size:.6rem;
+    line-height:1.35;
+    padding:10px 14px 9px;
+  }
+  #hero .hero-h1{
+    max-width:640px;
+    font-size:clamp(1.8rem,7.4vw,2.58rem);
+    line-height:1.12;
+  }
+  #hero .hero-support{
+    max-width:620px;
+    font-size:1rem;
+    line-height:1.62;
+  }
+  #hero .hero-sub{
+    width:min(100%,520px);
+    padding:28px 28px 62px;
+    font-size:.93rem;
+    line-height:1.62;
+  }
+  #hero .hero-sub::before,
+  #hero .hero-sub::after{
+    left:28px;
+    right:28px;
+    bottom:42px;
+  }
+  #hero .hero-sub::after{right:86px}
+  #hero .hero-acts{margin-top:2px}
+}
+@media(max-width:520px){
+  #hero,
+  #hero .hero-wrap,
+  #hero .hero-content{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+  }
+  #hero .hero-wrap{
+    display:block!important;
+    padding:104px 28px 50px!important;
+    overflow:hidden;
+  }
+  #hero .hero-content{
+    display:flex!important;
+    flex-direction:column;
+    align-items:stretch;
+    gap:22px;
+    text-align:left;
+    overflow:hidden;
+  }
+  #hero .hero-badge{
+    width:100%;
+    align-self:stretch;
+    justify-content:center;
+    text-align:center;
+    white-space:normal;
+    overflow-wrap:break-word;
+  }
+  #hero .hero-h1{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    font-size:clamp(2.02rem,9.15vw,2.46rem);
+    line-height:1.07;
+    text-align:left;
+    white-space:normal!important;
+    text-wrap:pretty;
+    overflow-wrap:anywhere;
+    word-break:normal;
+  }
+  #hero .hero-support{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    font-size:.98rem;
+    line-height:1.62;
+    overflow-wrap:break-word;
+  }
+  #hero .hero-sub{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    padding:24px 22px 58px;
+    border-radius:20px;
+    transform:none;
+    overflow-wrap:break-word;
+    box-shadow:
+      8px 10px 0 rgba(207,226,99,.54),
+      0 22px 46px rgba(15,45,25,.12);
+  }
+  #hero .hero-sub:hover{transform:translateY(-3px)}
+  #hero .hero-sub::before,
+  #hero .hero-sub::after{
+    left:22px;
+    right:22px;
+    bottom:38px;
+  }
+  #hero .hero-sub::after{right:76px}
+  #hero .hero-acts{
+    flex-direction:column;
+    align-items:stretch;
+    width:100%;
+  }
+  #hero .hero-acts .btn,
+  #hero .hero-acts .btn-ow{
+    width:100%;
+    min-width:0;
+  }
+}
+
+/* PADRAO DE FAIXAS - cabecalho editorial em duas colunas */
+.section-head,
+.prob-top,
+.stats-top,
+.scope-top,
+.sec-benefit-top,
+.team-top,
+.mun-header{
+  display:grid!important;
+  grid-template-columns:minmax(0,.86fr) minmax(340px,1fr);
+  align-items:end;
+  gap:clamp(42px,6vw,86px);
+  margin-bottom:clamp(42px,5vw,62px);
+}
+.section-head > p,
+.prob-top > p,
+.stats-top > p,
+.sec-benefit-top > p,
+.team-top > p,
+.mun-header > p{
+  justify-self:start;
+  max-width:56ch!important;
+  margin:0;
+  color:rgba(16,34,20,.66);
+  font-size:.95rem!important;
+  line-height:1.78!important;
+  text-align:left;
+  text-wrap:pretty;
+}
+.section-head .h2,
+.prob-top .h2,
+.stats-top .h2,
+.scope-top .h2,
+.sec-benefit-top .h2,
+.team-top .h2,
+.mun-header .h2{
+  max-width:14.5ch;
+  margin:0;
+  font-size:clamp(2.15rem,3.2vw,3.35rem);
+  line-height:1.13;
+  letter-spacing:0;
+  text-wrap:balance;
+}
+.section-head .tag,
+.prob-top .tag,
+.stats-top .tag,
+.scope-top .tag,
+.sec-benefit-top .tag,
+.team-top .tag,
+.mun-header .tag{
+  margin-bottom:18px;
+}
+#problema .section-head .h2,
+#problema .prob-top .h2,
+#como .section-head .h2,
+#numeros .stats-top .h2,
+#escopo .scope-top .h2,
+#resultados .section-head .h2{
+  color:var(--white)!important;
+}
+#problema .section-head > p,
+#problema .prob-top > p,
+#como .section-head > p,
+#numeros .stats-top > p,
+#resultados .section-head > p{
+  color:rgba(255,255,255,.52)!important;
+}
+#escopo .scope-top{
+  grid-template-columns:minmax(0,.86fr) minmax(220px,1fr);
+}
+#escopo .scope-num-big{
+  justify-self:start;
+  font-size:clamp(3rem,8vw,6.5rem);
+  color:rgba(188,219,5,.22);
+  line-height:.82;
+}
+.sol-desc,
+.section-head .lead,
+.section-head .res-kicker{
+  color:rgba(16,34,20,.66);
+  font-size:.98rem!important;
+  line-height:1.78!important;
+}
+#resultados .res-kicker{
+  color:rgba(255,255,255,.58)!important;
+  font-size:1.02rem!important;
+  font-weight:600;
+}
+.sol-grid,
+.prog-layout,
+.res-layout{
+  margin-top:0!important;
+}
+.sol-text{
+  align-self:stretch;
+}
+.sf-list{
+  height:100%;
+  justify-content:center;
+}
+#como .how-layout{
+  display:block;
+}
+.step-list-wide{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:0 42px;
+}
+.step-list-wide .step{
+  border-top:1px solid rgba(255,255,255,.08);
+  border-bottom:0;
+}
+.step-list-wide .step:nth-child(-n+2){
+  border-top:0;
+}
+#como .how-cta{
+  margin-top:38px;
+}
+.city-copy .city-signature{
+  margin-top:0;
+}
+.security-copy{
+  align-self:stretch;
+  display:flex;
+  align-items:center;
+}
+.security-list{
+  width:100%;
+}
+.eco-layout{
+  grid-template-columns:minmax(160px,.28fr) minmax(0,1fr);
+  gap:42px;
+}
+.eco-intro{
+  align-self:start;
+}
+.eco-kicker{
+  margin-top:0!important;
+}
+.faq-layout{
+  grid-template-columns:minmax(160px,.28fr) minmax(0,1fr);
+  gap:42px;
+}
+.faq-actions{
+  margin-top:0!important;
+}
+@media(max-width:1024px){
+  .section-head,
+  .prob-top,
+  .stats-top,
+  .scope-top,
+  .sec-benefit-top,
+  .team-top,
+  .mun-header{
+    grid-template-columns:1fr;
+    gap:20px;
+    align-items:start;
+  }
+  .section-head .h2,
+  .prob-top .h2,
+  .stats-top .h2,
+  .scope-top .h2,
+  .sec-benefit-top .h2,
+  .team-top .h2,
+  .mun-header .h2{
+    max-width:18ch;
+  }
+  .section-head > p,
+  .prob-top > p,
+  .stats-top > p,
+  .sec-benefit-top > p,
+  .team-top > p,
+  .mun-header > p{
+    max-width:64ch!important;
+  }
+  .step-list-wide{
+    grid-template-columns:1fr;
+  }
+  .step-list-wide .step:nth-child(-n+2){
+    border-top:1px solid rgba(255,255,255,.08);
+  }
+  .step-list-wide .step:first-child{
+    border-top:0;
+  }
+  .eco-layout,
+  .faq-layout{
+    grid-template-columns:1fr;
+  }
+}
+@media(max-width:640px){
+  .section-head .h2,
+  .prob-top .h2,
+  .stats-top .h2,
+  .scope-top .h2,
+  .sec-benefit-top .h2,
+  .team-top .h2,
+  .mun-header .h2{
+    max-width:100%;
+    font-size:clamp(1.82rem,8vw,2.42rem);
+    line-height:1.13;
+  }
+  .section-head > p,
+  .prob-top > p,
+  .stats-top > p,
+  .sec-benefit-top > p,
+  .team-top > p,
+  .mun-header > p{
+    font-size:.9rem!important;
+    line-height:1.68!important;
+  }
+  .scope-num-big{
+    display:none;
+  }
+}
+
+/* AUDITORIA FINAL DE DIAGRAMAÇÃO */
+.section-head,
+.prob-top,
+.stats-top,
+.scope-top,
+.sec-benefit-top,
+.team-top,
+.mun-header{
+  grid-template-columns:minmax(0,1.04fr) minmax(300px,.96fr);
+  align-items:start;
+  gap:clamp(34px,5vw,78px);
+  margin-bottom:clamp(38px,4.4vw,58px);
+}
+.section-head > p,
+.prob-top > p,
+.stats-top > p,
+.sec-benefit-top > p,
+.team-top > p,
+.mun-header > p{
+  align-self:start;
+  max-width:52ch!important;
+  padding-top:clamp(38px,3.25vw,48px);
+}
+.section-head .h2,
+.prob-top .h2,
+.stats-top .h2,
+.scope-top .h2,
+.sec-benefit-top .h2,
+.team-top .h2,
+.mun-header .h2{
+  max-width:16.5ch;
+  font-size:clamp(2rem,3vw,3.15rem);
+  line-height:1.12;
+}
+.section-head .tag,
+.prob-top .tag,
+.stats-top .tag,
+.scope-top .tag,
+.sec-benefit-top .tag,
+.team-top .tag,
+.mun-header .tag{
+  margin-bottom:16px;
+}
+#cidades-digitais .section-head .h2,
+#secretarias .sec-benefit-top .h2,
+#municipios .mun-header .h2{
+  max-width:18ch;
+}
+#escopo .scope-top{
+  grid-template-columns:minmax(0,1.04fr) minmax(180px,.96fr);
+}
+#escopo .scope-num-big{
+  justify-self:end;
+  align-self:end;
+}
+
+.sol-grid,
+.res-layout,
+.prog-layout{
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:clamp(34px,5vw,72px);
+  align-items:start;
+}
+.sol-text,
+.security-copy{
+  align-self:start;
+}
+.sf-list{
+  justify-content:flex-start;
+}
+
+#como .step-list-wide{
+  column-gap:clamp(32px,4vw,58px);
+}
+#como .step-list-wide .step{
+  min-width:0;
+}
+
+#cidades-digitais .city-layout{
+  grid-template-columns:minmax(0,1fr);
+  gap:26px;
+  align-items:start;
+}
+#cidades-digitais .city-copy{
+  max-width:540px;
+}
+#cidades-digitais .city-signature{
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr);
+  align-items:center;
+  gap:18px;
+  padding-top:0;
+  border-top:0;
+}
+#cidades-digitais .city-map{
+  min-height:0;
+  padding:clamp(28px,4vw,52px);
+}
+#cidades-digitais .city-row{
+  grid-template-columns:58px minmax(0,1fr);
+  gap:20px;
+}
+#cidades-digitais .city-row > div{
+  max-width:76ch;
+}
+
+#seguranca .security-layout{
+  grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);
+  gap:clamp(34px,5vw,72px);
+  align-items:start;
+}
+#seguranca .security-visual{
+  min-height:430px;
+}
+#seguranca .security-list{
+  margin-top:0;
+}
+
+.prob-grid,
+.sc-grid,
+.benefit-grid,
+.tg{
+  align-items:stretch;
+}
+.pc,
+.sc-card,
+.benefit-card,
+.tc{
+  min-width:0;
+  height:100%;
+}
+.pc p,
+.sc-card p,
+.benefit-card p,
+.tc p{
+  max-width:42ch;
+}
+
+#resultados .res-text{
+  padding-top:0;
+}
+#economicidade .eco-layout{
+  grid-template-columns:minmax(210px,.48fr) minmax(0,1.52fr);
+  gap:clamp(32px,4vw,58px);
+}
+#economicidade .eco-intro{
+  padding-top:8px;
+  max-width:27ch;
+}
+#programas .prog-layout{
+  grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);
+}
+#municipios .mun-feat{
+  align-items:start;
+  gap:clamp(34px,4vw,62px);
+}
+#faq .faq-layout{
+  grid-template-columns:minmax(210px,.42fr) minmax(0,1.58fr);
+  gap:clamp(32px,4vw,58px);
+  align-items:start;
+}
+#contato .cta-inner{
+  grid-template-columns:minmax(0,1.14fr) minmax(420px,.86fr);
+  gap:clamp(40px,5vw,76px);
+  align-items:start;
+}
+#contato .cta-copy{
+  max-width:650px;
+}
+#contato .cta-h2{
+  max-width:21ch;
+  font-size:clamp(1.95rem,2.75vw,2.85rem);
+  line-height:1.1;
+}
+
+/* CONTINUIDADE DA AUDITORIA - leitura, ritmo e colunas intermediárias */
+.section-head,
+.prob-top,
+.stats-top,
+.scope-top,
+.sec-benefit-top,
+.team-top,
+.mun-header{
+  display:grid!important;
+}
+.section-head > *,
+.prob-top > *,
+.stats-top > *,
+.scope-top > *,
+.sec-benefit-top > *,
+.team-top > *,
+.mun-header > *,
+.sol-grid > *,
+.res-layout > *,
+.prog-layout > *,
+.security-layout > *,
+.eco-layout > *,
+.faq-layout > *{
+  min-width:0;
+}
+.pc h3,
+.sc-card h3,
+.benefit-card h3,
+.tc h3,
+.security-item h3,
+.pi h4,
+.eco-item h3,
+.bar-l,
+.fq-q-t{
+  text-wrap:balance;
+  overflow-wrap:break-word;
+}
+.pc p,
+.sc-card p,
+.benefit-card p,
+.tc p,
+.security-item p,
+.pi p,
+.eco-item p,
+.fq-a-in{
+  text-wrap:pretty;
+}
+
+#numeros .stats-top > p{
+  color:rgba(255,255,255,.58)!important;
+  max-width:50ch!important;
+}
+#escopo .scope-num-big{
+  min-width:0;
+  max-width:100%;
+  text-align:right;
+}
+
+#cidades-digitais .city-signature{
+  width:100%;
+  max-width:760px;
+}
+#cidades-digitais .city-signature span{
+  max-width:58ch;
+  line-height:1.62;
+}
+#cidades-digitais .city-map{
+  width:100%;
+}
+
+#municipios .mun-feat{
+  display:grid;
+  grid-template-columns:minmax(180px,.48fr) minmax(0,1.52fr);
+  gap:clamp(28px,4vw,56px);
+  padding:clamp(26px,3vw,38px) clamp(26px,4vw,48px);
+}
+#municipios .mf-left{
+  min-width:0;
+  padding-right:clamp(24px,3vw,42px);
+  border-right:1px solid rgba(255,255,255,.12);
+}
+#municipios .mf-text{
+  max-width:66ch;
+  margin:0;
+  font-size:.94rem;
+  line-height:1.76;
+}
+
+@media (min-width:769px) and (max-width:1180px){
+  .prob-grid,
+  .benefit-grid,
+  .tg,
+  .mun-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+  .mun-card-last{
+    grid-column:auto;
+  }
+  .sc-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+}
+@media(max-width:1024px){
+  .section-head,
+  .prob-top,
+  .stats-top,
+  .scope-top,
+  .sec-benefit-top,
+  .team-top,
+  .mun-header,
+  #escopo .scope-top{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+  .section-head > p,
+  .prob-top > p,
+  .stats-top > p,
+  .sec-benefit-top > p,
+  .team-top > p,
+  .mun-header > p{
+    padding-top:0;
+    max-width:62ch!important;
+  }
+  #escopo .scope-num-big{
+    justify-self:start;
+    align-self:start;
+  }
+  #seguranca .security-layout,
+  #economicidade .eco-layout,
+  #faq .faq-layout,
+  #contato .cta-inner{
+    grid-template-columns:1fr;
+  }
+  #cidades-digitais .city-copy{
+    max-width:none;
+  }
+  #contato .cta-copy,
+  #contato .cta-form-wrap{
+    max-width:720px;
+  }
+  #municipios .mun-feat{
+    grid-template-columns:minmax(154px,.44fr) minmax(0,1.56fr);
+  }
+}
+@media(max-width:640px){
+  .section-head,
+  .prob-top,
+  .stats-top,
+  .scope-top,
+  .sec-benefit-top,
+  .team-top,
+  .mun-header{
+    margin-bottom:34px;
+  }
+  .section-head .h2,
+  .prob-top .h2,
+  .stats-top .h2,
+  .scope-top .h2,
+  .sec-benefit-top .h2,
+  .team-top .h2,
+  .mun-header .h2{
+    max-width:100%;
+    font-size:clamp(1.86rem,8vw,2.42rem);
+  }
+  #cidades-digitais .city-signature{
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+  #cidades-digitais .city-row{
+    grid-template-columns:38px minmax(0,1fr);
+    gap:14px;
+  }
+  #seguranca .security-visual{
+    min-height:320px;
+  }
+  #contato .cta-h2{
+    max-width:100%;
+    font-size:clamp(1.95rem,8.2vw,2.7rem);
+  }
+  #escopo .scope-num-big{
+    text-align:left;
+  }
+  #municipios .mun-feat{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+  #municipios .mf-left{
+    padding:0 0 18px;
+    border-right:0;
+    border-bottom:1px solid rgba(255,255,255,.12);
+  }
+}
+
+/* DIAGRAMAÇÃO DESKTOP HORIZONTAL - títulos amplos e textos alinhados */
+@media(min-width:1025px){
+  .w{
+    max-width:1320px;
+    padding-left:4%;
+    padding-right:4%;
+  }
+
+  .section-head,
+  .prob-top,
+  .stats-top,
+  .scope-top,
+  .sec-benefit-top,
+  .team-top,
+  .mun-header{
+    grid-template-columns:minmax(0,1.42fr) minmax(320px,.78fr);
+    gap:clamp(38px,4.5vw,72px);
+    align-items:start;
+    margin-bottom:clamp(42px,4.5vw,64px);
+  }
+  .section-head > p,
+  .prob-top > p,
+  .stats-top > p,
+  .sec-benefit-top > p,
+  .team-top > p,
+  .mun-header > p{
+    max-width:52ch!important;
+    padding-top:32px;
+    font-size:clamp(1rem,.75rem + .45vw,1.12rem)!important;
+    line-height:1.7!important;
+  }
+  .section-head .h2,
+  .prob-top .h2,
+  .stats-top .h2,
+  .scope-top .h2,
+  .sec-benefit-top .h2,
+  .team-top .h2,
+  .mun-header .h2{
+    max-width:30ch;
+    font-size:clamp(2rem,2.55vw,2.8rem);
+    line-height:1.09;
+    text-wrap:balance;
+  }
+  #cidades-digitais .section-head .h2,
+  #secretarias .sec-benefit-top .h2,
+  #municipios .mun-header .h2{
+    max-width:32ch;
+  }
+  #escopo .scope-top{
+    grid-template-columns:minmax(0,1.42fr) minmax(150px,.34fr);
+  }
+  #escopo .scope-num-big{
+    justify-self:end;
+    align-self:center;
+    font-size:clamp(3.5rem,5vw,5.5rem);
+  }
+  #numeros .stats-top > p{
+    padding-top:32px;
+  }
+
+  #hero .hero-wrap{
+    max-width:1320px;
+    padding:116px 4% 78px;
+  }
+  #hero .hero-content{
+    grid-template-columns:minmax(0,1.38fr) minmax(340px,.62fr);
+    column-gap:clamp(48px,5vw,76px);
+    max-width:none;
+  }
+  #hero .hero-h1{
+    max-width:780px;
+    font-size:clamp(2.45rem,3.35vw,3.45rem);
+    line-height:1.06;
+  }
+  #hero .hero-support{
+    max-width:64ch;
+    font-size:clamp(1.03rem,.8rem + .4vw,1.16rem);
+    line-height:1.62;
+  }
+  #hero .hero-sub{
+    max-width:400px;
+    font-size:clamp(.94rem,.8rem + .22vw,1rem);
+    line-height:1.62;
+  }
+
+  #solucao .sol-grid{
+    grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);
+  }
+  #resultados .res-layout{
+    grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);
+  }
+  #programas .prog-layout{
+    grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);
+  }
+  #economicidade .eco-layout{
+    grid-template-columns:minmax(250px,.62fr) minmax(0,1.38fr);
+  }
+  #faq .faq-layout{
+    grid-template-columns:minmax(230px,.5fr) minmax(0,1.5fr);
+  }
+
+  #contato .cta-inner{
+    grid-template-columns:minmax(0,1.32fr) minmax(410px,.68fr);
+    gap:clamp(46px,5vw,78px);
+  }
+  #contato .cta-copy{
+    max-width:760px;
+  }
+  #contato .cta-h2{
+    max-width:36ch;
+    font-size:clamp(1.9rem,2.35vw,2.45rem);
+    line-height:1.1;
+  }
+  #contato .cta-h2 .out{
+    display:inline;
+    margin-top:0;
+  }
+  #contato .cta-p{
+    max-width:58ch;
+    font-size:clamp(1rem,.8rem + .32vw,1.1rem);
+    line-height:1.7;
+  }
+  #resultados .res-kicker{
+    font-size:clamp(1.02rem,.8rem + .35vw,1.12rem)!important;
+    line-height:1.68!important;
+  }
+}
+
+/* BLOCOS EDITORIAIS - Segurança, FAQ e Economicidade */
+#seguranca{
+  background:var(--off2);
+}
+#seguranca .security-visual{
+  display:none;
+}
+@media(min-width:1025px){
+  #seguranca,
+  #faq,
+  #economicidade{
+    padding-top:clamp(88px,8vw,132px);
+    padding-bottom:clamp(88px,8vw,132px);
+  }
+
+  /* Segurança pública: texto de contexto à esquerda, frentes de atuação à direita. */
+  #seguranca .w{
+    display:grid;
+    grid-template-columns:minmax(0,1.48fr) minmax(250px,.52fr);
+    grid-template-areas:
+      "heading list"
+      "support list";
+    column-gap:clamp(58px,7vw,112px);
+    row-gap:22px;
+    align-items:start;
+  }
+  #seguranca .section-head,
+  #seguranca .security-layout{
+    display:contents!important;
+  }
+  #seguranca .section-head > div{
+    grid-area:heading;
+  }
+  #seguranca .section-head > p{
+    grid-area:support;
+    max-width:43ch!important;
+    margin:12px 0 0;
+    padding:0!important;
+    font-size:clamp(1.02rem,.82rem + .35vw,1.13rem)!important;
+    line-height:1.68!important;
+  }
+  #seguranca .section-head .h2{
+    max-width:31ch;
+    font-size:clamp(2rem,2.5vw,2.8rem);
+  }
+  #seguranca .security-copy{
+    grid-area:list;
+    width:100%;
+    max-width:310px;
+    justify-self:end;
+  }
+  #seguranca .security-list{
+    display:block;
+    margin:0;
+  }
+  #seguranca .security-item{
+    padding:14px 0 13px;
+    border-top:1px solid var(--line-soft);
+  }
+  #seguranca .security-item:last-child{
+    border-bottom:1px solid var(--line-soft);
+  }
+  #seguranca .security-item h3{
+    margin:0 0 5px;
+    font-size:.76rem;
+    line-height:1.3;
+    color:var(--ink);
+  }
+  #seguranca .security-item p{
+    max-width:44ch;
+    font-size:.68rem;
+    line-height:1.55;
+    color:rgba(16,34,20,.62);
+  }
+
+  /* FAQ: uma coluna de decisão e uma coluna de respostas, sem quebra de ritmo. */
+  #faq .w{
+    display:grid;
+    grid-template-columns:minmax(0,.67fr) minmax(440px,1.33fr);
+    grid-template-areas:
+      "heading list"
+      "support list"
+      "action list";
+    column-gap:clamp(56px,7vw,116px);
+    row-gap:0;
+    align-items:start;
+  }
+  #faq .section-head,
+  #faq .faq-layout{
+    display:contents!important;
+  }
+  #faq .section-head > div{
+    grid-area:heading;
+  }
+  #faq .section-head > p{
+    grid-area:support;
+    max-width:40ch!important;
+    margin:20px 0 0;
+    padding:0!important;
+    font-size:1rem!important;
+    line-height:1.72!important;
+  }
+  #faq .section-head .h2{
+    max-width:100%;
+    font-size:clamp(1.95rem,2.35vw,2.6rem);
+  }
+  #faq .faq-layout > div:first-child{
+    grid-area:action;
+  }
+  #faq .faq-actions{
+    margin:28px 0 0;
+  }
+  #faq .faq-actions .btn{
+    min-width:176px;
+    min-height:50px;
+    justify-content:center;
+  }
+  #faq .faq-list{
+    grid-area:list;
+    width:100%;
+    align-self:start;
+    border-top:1px solid var(--line-soft);
+  }
+  #faq .fq{
+    border-bottom:1px solid var(--line-soft);
+  }
+  #faq .fq-q{
+    min-height:62px;
+    padding:16px 0;
+  }
+  #faq .fq-q-t{
+    font-size:.88rem;
+    line-height:1.4;
+    color:var(--ink);
+  }
+  #faq .fq-ic{
+    width:21px;
+    height:21px;
+    border-color:rgba(16,34,20,.12);
+    color:rgba(16,34,20,.48);
+    font-size:.88rem;
+  }
+  #faq .fq-a-in{
+    max-width:68ch;
+    padding-bottom:20px;
+  }
+
+  /* Economicidade: ganhos à esquerda, contexto e assinatura técnica à direita. */
+  #economicidade .w{
+    display:grid;
+    grid-template-columns:minmax(0,1.28fr) minmax(300px,.72fr);
+    grid-template-areas:
+      "heading support"
+      "list kicker";
+    column-gap:clamp(56px,7vw,112px);
+    row-gap:26px;
+    align-items:start;
+  }
+  #economicidade .section-head,
+  #economicidade .eco-layout{
+    display:contents!important;
+  }
+  #economicidade .section-head > div{
+    grid-area:heading;
+  }
+  #economicidade .section-head > p{
+    grid-area:support;
+    max-width:44ch!important;
+    margin:0;
+    padding:0!important;
+    position:relative;
+    top:54px;
+    font-size:.8rem!important;
+    line-height:1.72!important;
+  }
+  #economicidade .section-head .h2{
+    max-width:29ch;
+    font-size:clamp(2.05rem,2.65vw,2.95rem);
+  }
+  #economicidade .eco-list{
+    grid-area:list;
+    width:100%;
+    margin:0;
+    border-top:1px solid var(--line-soft);
+  }
+  #economicidade .eco-item{
+    grid-template-columns:46px minmax(0,1fr);
+    gap:18px;
+    padding:18px 0;
+    border-bottom:1px solid var(--line-soft);
+  }
+  #economicidade .eco-item-n{
+    padding-top:2px;
+    font-size:.65rem;
+  }
+  #economicidade .eco-item h3{
+    margin:0 0 5px;
+    font-size:.86rem;
+    line-height:1.3;
+  }
+  #economicidade .eco-item p{
+    max-width:62ch;
+    font-size:.76rem;
+    line-height:1.6;
+  }
+  #economicidade .eco-intro{
+    grid-area:kicker;
+    padding-top:38px;
+    max-width:38ch;
+  }
+  #economicidade .eco-kicker{
+    margin:0;
+    font-size:.62rem;
+    line-height:1.7;
+    color:rgba(16,34,20,.6);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}
+}
 </style>
 
 <body>
@@ -581,8 +2251,10 @@ footer strong{color:rgba(255,255,255,.38)}
 <div id="sp"></div>
 
 <!-- NAV -->
-<nav id="nav">
-  <a href="#" class="nav-logo">ACOPLA<span>.</span></a>
+<nav id="nav" aria-label="Navegação principal">
+  <a href="#hero" class="brand-logo" aria-label="ACOPLA — início">
+    <img src="logo-acopla-transparent.png" alt="ACOPLA">
+  </a>
   <ul class="nav-links">
     <li><a href="#solucao">Solução</a></li>
     <li><a href="#como">Como funciona</a></li>
@@ -599,18 +2271,14 @@ footer strong{color:rgba(255,255,255,.38)}
   <div class="hero-glow"></div>
 
   <div class="hero-wrap">
-    <div>
+    <div class="hero-content">
       <div class="hero-badge">Governança e planejamento para Prefeituras</div>
-      <h1 class="hero-h1">A tecnologia da Prefeitura precisa servir à gestão pública <span class="acc">com planejamento, controle e execução</span></h1>
-      <p class="hero-sub">A ACOPLA organiza tecnologia, telecomunicações, contratos e custos em uma metodologia contínua de governança municipal, conectada ao orçamento, às secretarias e aos projetos estratégicos do Município.</p>
+      <h1 class="hero-h1">Integre todas as secretarias em uma única <span class="acc">estratégia de governança.</span></h1>
+      <p class="hero-support">Transformando tecnologia, contratos e informações em eficiência, economicidade e resultados que fortalecem a gestão pública.</p>
+      <p class="hero-sub">A ACOPLA atua ao lado da Prefeitura com diagnóstico, planejamento e acompanhamento contínuo para transformar decisões isoladas em uma gestão municipal mais conectada, segura e capaz de executar.</p>
       <div class="hero-acts">
         <a href="#contato" class="btn btn-lime">Solicitar diagnóstico ↗</a>
         <a href="#como" class="btn-ow">Como funciona</a>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="net-wrap">
-        <canvas id="motion-canvas"></canvas>
       </div>
     </div>
   </div>
@@ -618,16 +2286,16 @@ footer strong{color:rgba(255,255,255,.38)}
   <div class="hero-bar-outer">
     <div class="hero-bar">
       <div class="hb-item">
-        <div class="hb-val"><span data-counter="487">0</span></div>
-        <div class="hb-lab">Ativos mapeados<br>para decisão pública</div>
+        <div class="hb-val">487</div>
+        <div class="hb-lab">Ativos mapeados para decisão pública</div>
       </div>
       <div class="hb-item">
-        <div class="hb-val"><span data-counter="34">0</span></div>
-        <div class="hb-lab">Contratos auditados<br>com visão técnica</div>
+        <div class="hb-val">34</div>
+        <div class="hb-lab">Contratos auditados com visão técnica</div>
       </div>
       <div class="hb-item">
-        <div class="hb-val"><span data-counter="8">0</span></div>
-        <div class="hb-lab">Frentes integradas<br>de governança</div>
+        <div class="hb-val">8</div>
+        <div class="hb-lab">Frentes integradas de governança</div>
       </div>
     </div>
   </div>
@@ -665,9 +2333,9 @@ footer strong{color:rgba(255,255,255,.38)}
     <div class="prob-top">
       <div data-r>
         <div class="tag">O cenário atual</div>
-        <h2 class="h2">Você reconhece<br>esse cenário?</h2>
+        <h2 class="h2">Você reconhece esse cenário?</h2>
       </div>
-      <p class="prob-right" data-r="r">Grande parte dos Municípios enfrenta os mesmos desafios. Eles costumam ficar invisíveis até virarem risco de auditoria, desperdício orçamentário, perda de recursos ou dificuldade para executar projetos importantes.</p>
+      <p class="prob-right" data-r="r">Secretarias desconectadas, custos invisíveis, contratos sem auditoria, ativos sem inventário e pouca base técnica para licitações e projetos: problemas que travam investimentos, geram desperdícios e enfraquecem a capacidade de execução do Município.</p>
     </div>
     <div class="prob-grid">
       <div class="pc" data-r data-d="1">
@@ -717,6 +2385,13 @@ footer strong{color:rgba(255,255,255,.38)}
 <!-- SOLUCAO -->
 <section id="solucao" class="sec">
   <div class="w">
+    <div class="section-head">
+      <div data-r="l">
+        <div class="tag">A solução</div>
+        <h2 class="h2">A maioria entrega um PDTIC. A ACOPLA entrega governança contínua.</h2>
+      </div>
+      <p class="sol-desc" data-r="r">A ACOPLA não entrega um arquivo e desaparece. Trabalhamos ao lado da equipe municipal, organizando o ambiente tecnológico, fortalecendo a governança e criando base concreta para decisões administrativas, orçamentárias e operacionais.</p>
+    </div>
     <div class="sol-grid">
       <div data-r="l">
         <div class="sol-vis">
@@ -758,9 +2433,6 @@ footer strong{color:rgba(255,255,255,.38)}
         </div>
       </div>
       <div class="sol-text" data-r="r">
-        <div class="tag">A solução</div>
-        <h2 class="h2">O PDTIC que vira rotina de gestão, não apenas documento</h2>
-        <p class="sol-desc">A ACOPLA não entrega um arquivo e desaparece. Trabalhamos ao lado da equipe municipal, organizando o ambiente tecnológico, fortalecendo governança e criando base concreta para decisões administrativas, orçamentárias e operacionais.</p>
         <div class="sf-list">
           <div class="sf">
             <div class="sf-ic">🏗️</div>
@@ -791,15 +2463,15 @@ footer strong{color:rgba(255,255,255,.38)}
 <!-- COMO -->
 <section id="como" class="sec">
   <div class="w">
-    <div class="how-layout">
-      <div class="how-left" data-r="l">
+    <div class="section-head">
+      <div data-r="l">
         <div class="tag">Como trabalhamos</div>
         <h2 class="h2">Sete etapas. Uma metodologia contínua.</h2>
-        <p class="lead">A ACOPLA atua como braço técnico e administrativo de apoio à Prefeitura. Cada etapa tem entrega clara, prazo definido e efeito prático sobre planejamento, execução e controle.</p>
-        <br><br>
-        <a href="#contato" class="btn btn-g">Iniciar diagnóstico ↗</a>
       </div>
-      <div class="step-list" data-r="r">
+      <p class="lead" data-r="r">A ACOPLA atua como braço técnico e administrativo de apoio à Prefeitura. Cada etapa tem entrega clara, prazo definido e efeito prático sobre planejamento, execução e controle.</p>
+    </div>
+    <div class="how-layout">
+      <div class="step-list step-list-wide" data-r="r">
         <div class="step">
           <span class="step-n">01</span>
           <div><h4>Entendimento e levantamento</h4><p>Conhecemos o Município de perto: secretarias, contratos em vigor, ativos, conectividade e o nível atual de maturidade tecnológica.</p></div>
@@ -830,6 +2502,7 @@ footer strong{color:rgba(255,255,255,.38)}
         </div>
       </div>
     </div>
+    <div class="how-cta" data-r><a href="#contato" class="btn btn-g">Iniciar diagnóstico ↗</a></div>
   </div>
 </section>
 
@@ -839,7 +2512,7 @@ footer strong{color:rgba(255,255,255,.38)}
     <div class="stats-top">
       <div data-r="l">
         <div class="tag">Indicadores que orientam</div>
-        <h2 class="h2" style="color:#fff">Os dados que<br>fazem a gestão avançar</h2>
+        <h2 class="h2" style="color:#fff">Os dados que fazem a gestão avançar</h2>
       </div>
       <p style="font-size:.9rem;color:rgba(255,255,255,.45);max-width:390px;line-height:1.75" data-r="r">Cada Município tem sua realidade, mas uma gestão madura precisa enxergar ativos, contratos, custos, riscos e prioridades com indicadores atualizados.</p>
     </div>
@@ -886,7 +2559,7 @@ footer strong{color:rgba(255,255,255,.38)}
     <div class="scope-top">
       <div data-r="l">
         <div class="tag" style="color:var(--lime)">Escopo integrado</div>
-        <h2 class="h2" style="color:var(--white)">Tudo que envolve tecnologia<br>sob uma mesma visão</h2>
+        <h2 class="h2" style="color:var(--white)">Tudo que envolve tecnologia sob uma mesma visão</h2>
       </div>
       <div class="scope-num-big" data-r="r">05</div>
     </div>
@@ -896,6 +2569,62 @@ footer strong{color:rgba(255,255,255,.38)}
       <div class="sc-card" data-r data-d="3"><div class="sc-n">03</div><div class="sc-icon">📋</div><h3>Contratos e custos</h3><p>Auditoria técnica e financeira para identificar sobreposições, pagamentos sem uso, inconsistências contratuais e oportunidades reais de economicidade.</p></div>
       <div class="sc-card" data-r data-d="4"><div class="sc-n">04</div><div class="sc-icon">⚖️</div><h3>Governança e planejamento</h3><p>PDTIC, indicadores, processos, papéis, rastreabilidade das decisões e conexão com planejamento orçamentário, administrativo e institucional.</p></div>
       <div class="sc-card" data-r data-d="1"><div class="sc-n">05</div><div class="sc-icon">🏙️</div><h3>Projetos estratégicos</h3><p>Cidade Digital, Smart City, conectividade, segurança pública, escolas, saúde, programas federais e projetos capazes de modernizar o Município.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CIDADES DIGITAIS -->
+<section id="cidades-digitais" class="sec">
+  <div class="w">
+    <div class="section-head">
+      <div data-r="l">
+        <div class="tag">Cidades digitais e Governo Digital</div>
+        <h2 class="h2">Da conectividade à Cidade Inteligente: uma estratégia para modernizar o Município.</h2>
+      </div>
+      <p data-r="r">Iniciativas de Cidade Digital não começam com a compra de uma solução isolada. Elas exigem infraestrutura confiável, prioridades claras, integração de dados e uma gestão capaz de conectar serviços públicos às necessidades reais da população.</p>
+    </div>
+    <div class="city-layout">
+      <div class="city-copy" data-r="l">
+        <div class="city-signature">
+          <img src="logo-acopla-transparent.png" alt="ACOPLA">
+          <span>Planejamento técnico para transformar inovação em capacidade de execução.</span>
+        </div>
+      </div>
+      <div class="city-map" data-r="r">
+        <p class="city-eyebrow">Frentes de transformação digital</p>
+        <div class="city-rows">
+          <article class="city-row"><span class="city-n">01</span><div><h3>Conectividade municipal</h3><p>Redes entre unidades públicas, Wi-Fi público, links e cobertura estruturados para apoiar a operação da cidade.</p></div></article>
+          <article class="city-row"><span class="city-n">02</span><div><h3>Integração de dados</h3><p>Informações mais organizadas para orientar decisões, projetos, indicadores e o relacionamento entre secretarias.</p></div></article>
+          <article class="city-row"><span class="city-n">03</span><div><h3>Modernização administrativa</h3><p>Processos, serviços digitais e infraestrutura planejados com visão de continuidade, orçamento e interesse público.</p></div></article>
+          <article class="city-row"><span class="city-n">04</span><div><h3>Governo digital</h3><p>Base técnica para ampliar o acesso do cidadão, melhorar a gestão e preparar projetos para oportunidades públicas.</p></div></article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEGURANÇA PÚBLICA -->
+<section id="seguranca" class="sec">
+  <div class="w">
+    <div class="section-head">
+      <div data-r="l">
+        <div class="tag">Segurança pública e videomonitoramento</div>
+        <h2 class="h2">Videomonitoramento que se integra à estratégia do Município.</h2>
+      </div>
+      <p data-r="r">A ACOPLA estrutura a base técnica e administrativa para que conectividade, câmeras, centros de monitoramento e dados apoiem operações municipais e decisões mais qualificadas em segurança pública.</p>
+    </div>
+    <div class="security-layout">
+      <div class="security-visual" data-r="l" aria-hidden="true">
+        <p class="security-label"><strong>Segurança conectada</strong>Visão técnica para decisões que protegem a cidade.</p>
+      </div>
+      <div class="security-copy" data-r="r">
+        <div class="security-list">
+          <article class="security-item"><h3>Videomonitoramento urbano</h3><p>Planejamento de cobertura, infraestrutura e ativos para uma operação mais consistente.</p></article>
+          <article class="security-item"><h3>Integração de câmeras</h3><p>Conexão entre pontos, redes e unidades para ampliar a leitura do território.</p></article>
+          <article class="security-item"><h3>Centros de monitoramento</h3><p>Base de conectividade, processos e responsabilidades para apoiar o acompanhamento das operações.</p></article>
+          <article class="security-item"><h3>Inteligência para decisão</h3><p>Informações organizadas para orientar projetos, prioridades e respostas do poder público.</p></article>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -929,6 +2658,7 @@ footer strong{color:rgba(255,255,255,.38)}
       <div data-r="l">
         <div class="tag">Diferenciais ACOPLA</div>
         <h2 class="h2">Independência técnica para decidir melhor</h2>
+        <div class="brand-stamp"><img src="logo-acopla-transparent.png" alt="ACOPLA"><span>Assessoria, consultoria, planejamento e gestão para Prefeituras.</span></div>
       </div>
       <p class="t-right" data-r="r">A ACOPLA atua ao lado da gestão municipal sem vínculo com operadoras, fornecedores ou fabricantes. A recomendação nasce da realidade da Prefeitura, dos dados levantados e do interesse público.</p>
     </div>
@@ -970,8 +2700,13 @@ footer strong{color:rgba(255,255,255,.38)}
 <!-- RESULTADOS -->
 <section id="resultados" class="sec">
   <div class="w">
-    <div class="tag" data-r>O que muda na prática</div>
-    <h2 class="h2" data-r data-d="1">Mais governança.<br>Mais execução municipal.</h2>
+    <div class="section-head">
+      <div data-r="l">
+        <div class="tag">O que muda na prática</div>
+        <h2 class="h2">Mais governança. Mais execução municipal.</h2>
+      </div>
+      <p class="res-kicker" data-r="r">A Prefeitura ganha método para transformar planejamento em entrega</p>
+    </div>
     <div class="res-layout" id="res-sec">
       <div class="bars" data-r="l">
         <div class="bar-item">
@@ -996,7 +2731,6 @@ footer strong{color:rgba(255,255,255,.38)}
         </div>
       </div>
       <div class="res-text" data-r="r">
-        <h3>A Prefeitura ganha método para transformar planejamento em entrega</h3>
         <div class="r-items">
           <div class="r-item"><span class="r-chk">✓</span><p><strong>Menos desperdício.</strong> Contratos revisados, serviços racionalizados e custos monitorados de forma contínua.</p></div>
           <div class="r-item"><span class="r-chk">✓</span><p><strong>Mais governança.</strong> Indicadores, prioridades e responsabilidades organizados para melhorar a maturidade administrativa.</p></div>
@@ -1010,12 +2744,39 @@ footer strong{color:rgba(255,255,255,.38)}
   </div>
 </section>
 
+<!-- ECONOMICIDADE -->
+<section id="economicidade" class="sec">
+  <div class="w">
+    <div class="section-head">
+      <div data-r="l">
+        <div class="tag">Economicidade como resultado estratégico</div>
+        <h2 class="h2">Economizar com método é ganhar capacidade de reinvestir.</h2>
+      </div>
+      <p data-r="r">A melhor utilização dos recursos públicos não é um efeito secundário. É uma consequência direta de contratos bem analisados, custos recorrentes acompanhados e prioridades conectadas ao planejamento municipal.</p>
+    </div>
+    <div class="eco-layout">
+      <div class="eco-intro" data-r="l">
+        <p class="eco-kicker">Eficiência financeira com base técnica e continuidade.</p>
+      </div>
+      <div class="eco-list" data-r="r">
+        <article class="eco-item"><span class="eco-item-n">01</span><div><h3>Redução de desperdícios</h3><p>Identificação de serviços sobrepostos, cobranças incompatíveis e ativos sem uso para corrigir desvios que consomem o orçamento sem gerar valor público.</p></div></article>
+        <article class="eco-item"><span class="eco-item-n">02</span><div><h3>Otimização de contratos e custos recorrentes</h3><p>Auditoria técnica e financeira para relacionar o que é contratado, o que é utilizado e o que precisa ser revisto de forma contínua.</p></div></article>
+        <article class="eco-item"><span class="eco-item-n">03</span><div><h3>Mais capacidade de reinvestimento</h3><p>Recursos melhor utilizados criam espaço para priorizar infraestrutura, conectividade, serviços digitais e projetos que fortalecem a gestão municipal.</p></div></article>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- PROGRAMAS -->
 <section id="programas" class="sec">
   <div class="w">
-    <div class="tag" data-r>Do PDTIC à Cidade Digital</div>
-    <h2 class="h2" data-r data-d="1">O plano é o começo.<br>A execução é o que transforma.</h2>
-    <p class="lead" data-r data-d="2">O PDTIC organiza a base, mas a evolução acontece no acompanhamento contínuo: conectividade, segurança pública, escolas conectadas, serviços digitais, Smart City e projetos capazes de acessar programas públicos.</p>
+    <div class="section-head">
+      <div data-r="l">
+        <div class="tag">Do PDTIC à Cidade Digital</div>
+        <h2 class="h2">O plano é o começo. A execução é o que transforma.</h2>
+      </div>
+      <p class="lead" data-r="r">O PDTIC organiza a base, mas a evolução acontece no acompanhamento contínuo: conectividade, segurança pública, escolas conectadas, serviços digitais, Smart City e projetos capazes de acessar programas públicos.</p>
+    </div>
     <div class="prog-layout" style="margin-top:52px">
       <div class="prog-list">
         <div class="pi" data-r data-d="1"><span class="pi-badge">Federal</span><div><h4>Programa Wi-Fi Brasil / GESAC</h4><p>Portaria nº 2.460/2021 do Ministério das Comunicações — conectividade pública para Municípios.</p></div></div>
@@ -1050,7 +2811,7 @@ footer strong{color:rgba(255,255,255,.38)}
     <div class="mun-header">
       <div data-r>
         <div class="tag">Referências técnicas</div>
-        <h2 class="h2">Experiência aplicada em<br>diferentes realidades municipais</h2>
+        <h2 class="h2">Experiência aplicada em diferentes realidades municipais</h2>
       </div>
       <p data-r="r">A ACOPLA atua com metodologia técnica, institucional e apartidária, adaptando governança, planejamento, telecomunicações e tecnologia ao porte, orçamento e prioridades de cada Município.</p>
     </div>
@@ -1106,33 +2867,36 @@ footer strong{color:rgba(255,255,255,.38)}
 <!-- FAQ -->
 <section id="faq" class="sec">
   <div class="w">
-    <div class="faq-layout">
+    <div class="section-head">
       <div data-r="l">
         <div class="tag">Perguntas frequentes</div>
         <h2 class="h2">Dúvidas que aparecem antes da decisão</h2>
-        <p style="font-size:.88rem;color:var(--muted);line-height:1.75;margin-top:14px">Se tiver alguma pergunta que não está aqui, fale com a gente diretamente. É mais rápido.</p>
-        <br>
-        <a href="#contato" class="btn btn-g" style="margin-top:8px">Falar com a equipe</a>
+      </div>
+      <p data-r="r">Se tiver alguma pergunta que não está aqui, fale com a gente diretamente. É mais rápido.</p>
+    </div>
+    <div class="faq-layout">
+      <div data-r="l">
+        <div class="faq-actions"><a href="#contato" class="btn btn-g">Falar com a equipe</a></div>
       </div>
       <div class="faq-list" data-r="r">
         <div class="fq">
-          <div class="fq-q"><span class="fq-q-t">A ACOPLA substitui a equipe de TI da Prefeitura?</span><span class="fq-ic">+</span></div>
+          <button type="button" class="fq-q" aria-expanded="false"><span class="fq-q-t">A ACOPLA substitui a equipe de TI da Prefeitura?</span><span class="fq-ic" aria-hidden="true">+</span></button>
           <div class="fq-a"><div class="fq-a-in">Não substitui. A ACOPLA atua como extensão técnica da equipe existente. O objetivo é fortalecer quem já está lá, organizando informações, estruturando processos e apoiando decisões que muitas vezes demandam especialização que vai além do dia a dia da equipe interna.</div></div>
         </div>
         <div class="fq">
-          <div class="fq-q"><span class="fq-q-t">O PDTIC que vocês estruturam é exigido por lei?</span><span class="fq-ic">+</span></div>
+          <button type="button" class="fq-q" aria-expanded="false"><span class="fq-q-t">O PDTIC que vocês estruturam é exigido por lei?</span><span class="fq-ic" aria-hidden="true">+</span></button>
           <div class="fq-a"><div class="fq-a-in">O PDTIC em si não tem obrigação legal universal, mas é fortemente recomendado por órgãos de controle e compõe indicadores de governança como o iGovTI e o IEG-M. Além disso, é a base para sustentar ETPs e TRs, que são sim exigidos legalmente em contratações de TI.</div></div>
         </div>
         <div class="fq">
-          <div class="fq-q"><span class="fq-q-t">Quanto tempo leva para começar a ver resultados?</span><span class="fq-ic">+</span></div>
+          <button type="button" class="fq-q" aria-expanded="false"><span class="fq-q-t">Quanto tempo leva para começar a ver resultados?</span><span class="fq-ic" aria-hidden="true">+</span></button>
           <div class="fq-a"><div class="fq-a-in">Os primeiros resultados concretos, como identificação de contratos sobrepostos, ativos não catalogados e inconsistências de custo, aparecem ainda nas etapas iniciais de diagnóstico e inventário. O processo completo varia conforme o porte e a complexidade do Município.</div></div>
         </div>
         <div class="fq">
-          <div class="fq-q"><span class="fq-q-t">O que acontece depois da formalização do PDTIC?</span><span class="fq-ic">+</span></div>
+          <button type="button" class="fq-q" aria-expanded="false"><span class="fq-q-t">O que acontece depois da formalização do PDTIC?</span><span class="fq-ic" aria-hidden="true">+</span></button>
           <div class="fq-a"><div class="fq-a-in">O modelo da ACOPLA inclui acompanhamento contínuo. O PDTIC é atualizado, as prioridades são revisadas e o planejamento é mantido útil ao longo do tempo. A formalização do documento não é o encerramento do trabalho.</div></div>
         </div>
         <div class="fq">
-          <div class="fq-q"><span class="fq-q-t">A economia gerada cobre o custo do serviço?</span><span class="fq-ic">+</span></div>
+          <button type="button" class="fq-q" aria-expanded="false"><span class="fq-q-t">A economia gerada cobre o custo do serviço?</span><span class="fq-ic" aria-hidden="true">+</span></button>
           <div class="fq-a"><div class="fq-a-in">Em muitos casos, sim. A auditoria técnica e financeira identifica contratos duplicados, serviços não utilizados e cobranças incorretas que, uma vez corrigidos, geram economicidade suficiente para subsidiar parcial ou totalmente o custo da assessoria.</div></div>
         </div>
       </div>
@@ -1144,10 +2908,14 @@ footer strong{color:rgba(255,255,255,.38)}
 <section id="contato" class="sec-lg">
   <div class="w">
     <div class="cta-inner" data-r>
-      <p class="cta-pre">Próximo passo</p>
-      <h2 class="cta-h2">Sua Prefeitura merece<br>uma metodologia contínua<br><span class="out">que vira execução</span></h2>
-      <p class="cta-p">Preencha o formulário. A ACOPLA entra em contato em até 1 dia útil para agendar uma conversa técnica sem compromisso.</p>
+      <div class="cta-copy">
+        <img class="cta-logo" src="logo-acopla-transparent.png" alt="ACOPLA">
+        <p class="cta-pre">Próximo passo</p>
+        <h2 class="cta-h2">Uma Prefeitura mais eficiente não acontece por acaso. <span class="out">Ela é resultado de planejamento, governança, integração e decisões baseadas em informações confiáveis.</span></h2>
+        <p class="cta-p">Solicite um diagnóstico técnico e conheça as oportunidades de fortalecimento da gestão pública do seu Município.</p>
+      </div>
 
+      <div class="cta-form-wrap">
       <form name="diagnostico-prefeituras" action="/" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="lp-form" id="lp-form-1">
         <input type="hidden" name="form-name" value="diagnostico-prefeituras">
         <p style="display:none"><label>Não preencha este campo: <input name="bot-field"></label></p>
@@ -1199,13 +2967,17 @@ footer strong{color:rgba(255,255,255,.38)}
         <h3>Recebemos sua solicitação!</h3>
         <p>Nossa equipe vai entrar em contato em até 1 dia útil. Fique de olho no seu e-mail e WhatsApp.</p>
       </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <p><strong>ACOPLA</strong> — Assessoria, Consultoria, Planejamento e Gestão em Telecom e Tecnologias &nbsp;·&nbsp; Todos os direitos reservados.</p>
+  <div class="footer-inner">
+    <div class="footer-brand"><img src="logo-acopla-transparent.png" alt="ACOPLA"></div>
+    <p><strong>ACOPLA</strong> — Assessoria, Consultoria, Planejamento e Gestão em Telecom e Tecnologias &nbsp;·&nbsp; Todos os direitos reservados.</p>
+  </div>
 </footer>
 
 <script>
@@ -1361,10 +3133,12 @@ document.querySelectorAll('.fq-q').forEach(q => {
     document.querySelectorAll('.fq').forEach(f => {
       f.classList.remove('open');
       f.querySelector('.fq-a').style.maxHeight = '0';
+      f.querySelector('.fq-q').setAttribute('aria-expanded', 'false');
     });
     if (!isOpen) {
       item.classList.add('open');
       a.style.maxHeight = a.scrollHeight + 'px';
+      q.setAttribute('aria-expanded', 'true');
     }
   });
 });
